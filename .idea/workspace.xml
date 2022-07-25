@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcd91b5a-b6c7-437a-93c2-634e6375e133" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" />
+    <list default="true" id="bcd91b5a-b6c7-437a-93c2-634e6375e133" name="Changes" comment="zalupa has successfully updated">
+      <change afterPath="$PROJECT_DIR$/client/src/components/Menu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Canvas..jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Canvas..jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Toolbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Toolbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/canvasState.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/canvasState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/tools/Brush.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/tools/Brush.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/tools/Rect.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/tools/Rect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/tools/Tool.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/tools/Tool.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +31,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,7 +53,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "watcher.settings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -49,8 +63,18 @@
       <recent name="C:\Users\vladz\WebstormProjects\paint-analogue\src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -63,6 +87,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -75,6 +104,10 @@
       <workItem from="1656083227502" duration="5294000" />
       <workItem from="1656098294987" duration="5000" />
       <workItem from="1656246156574" duration="12052000" />
+      <workItem from="1657980169526" duration="462000" />
+      <workItem from="1657980645753" duration="177000" />
+      <workItem from="1657981689440" duration="727000" />
+      <workItem from="1658752777948" duration="16753000" />
     </task>
     <servers />
   </component>
@@ -94,7 +127,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
-      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/client" />
     </ignored-roots>
+    <MESSAGE value="zalupa has successfully updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="zalupa has successfully updated" />
   </component>
 </project>

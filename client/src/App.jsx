@@ -1,15 +1,22 @@
 import React from 'react';
 import "./styles/app.scss"
-import Toolbar from "./components/Toolbar";
-import SettingBar from "./components/SettingBar";
-import Canvas from "./components/Canvas.";
+import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom";
+import Menu from "./components/Menu";
 const App = () => {
     return (
-        <div className="app">
-            <Toolbar/>,
-            <SettingBar/>,
-            <Canvas/>
-        </div>
+            <BrowserRouter>
+                    <Routes>
+                        <Route path="/:id" element={<Menu/>}/>
+                        <Route
+                            path="*"
+                            element={<Navigate to={`f${(+new Date).toString(16)}`} replace />}
+                        />
+                    </Routes>
+
+            </BrowserRouter>
+
+
+
     );
 };
 
